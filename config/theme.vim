@@ -11,7 +11,7 @@ if has('termguicolors')
 endif
 
 if has('gui_running')
-	set background=dark
+	set background=light
 	set lines=40
 	set columns=150
 endif
@@ -32,7 +32,7 @@ autocmd MyAutoCmd ColorScheme * call s:theme_reload(g:theme_name)
 " COLORSCHEME NAME
 let s:cache = $VARPATH.'/theme.txt'
 if ! exists('g:colors_name')
-	set background=dark
+	set background=light
 	execute 'colorscheme'
 		\ filereadable(s:cache) ? readfile(s:cache)[0] : 'hybrid'
 endif
