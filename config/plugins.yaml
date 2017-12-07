@@ -124,6 +124,7 @@
 - { repo: exu/pgsql.vim, on_ft: pgsql }
 - { repo: othree/nginx-contrib-vim, on_ft: nginx }
 - { repo: IN3D/vim-raml, on_ft: raml }
+- { repo: sbdchd/neoformat, on_ft: [ cpp, c, python, lua, js ]}
 
 # ==========================================
 # Commands
