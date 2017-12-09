@@ -1,3 +1,3 @@
 execute 'source' fnamemodify(expand('<sfile>'), ':h').'/config/vimrc'
-colorscheme flattened_dark
+colorscheme gruvbox
 set background=dark
